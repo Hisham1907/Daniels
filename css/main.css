@@ -1,0 +1,608 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.logo {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Home Start */
+header {
+    background-image: url('../images/bg.jpg');
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+
+.title-fs {
+    font-size: 3em;
+}
+
+.bg-opacity-60 {
+    background-color: rgb(0, 0, 0, .6);
+}
+
+.home-line {
+    position: relative;
+}
+
+.home-line::after {
+    content: "";
+    background-color: white;
+    width: 50%;
+    height: 1.5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.home-icons>div {
+    width: 30px;
+    height: 30px;
+}
+
+.home-typing {
+    font-size: 4rem;
+}
+
+.home-typing::after {
+    content: "";
+    font-weight: bold;
+    animation: 15s typing infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: "|"
+    }
+
+    2% {
+        content: " L|"
+    }
+
+    3.5% {
+        content: "  La|"
+    }
+
+    5% {
+        content: " Lar|"
+    }
+
+    6.5% {
+        content: " Larr|"
+    }
+
+    8% {
+        content: " Larry|"
+    }
+
+    9.5% {
+        content: " Larry D|"
+    }
+
+    11% {
+        content: " Larry Da|"
+    }
+
+    12.5% {
+        content: " Larry Dan|"
+    }
+
+    14% {
+        content: " Larry Dani|"
+    }
+
+    15.5% {
+        content: " Larry Danie|"
+    }
+
+    17% {
+        content: " Larry Daniel|"
+    }
+
+    18.5% {
+        content: " Larry Daniels|"
+    }
+
+    20% {
+        content: " Larry Daniel|"
+    }
+
+    21.5% {
+        content: " Larry Danie|"
+    }
+
+    23% {
+        content: " Larry Dani|"
+    }
+
+    24.5% {
+        content: " Larry Dan|"
+    }
+
+    26% {
+        content: " Larry Da|"
+    }
+
+    27.5% {
+        content: " Larry D|"
+    }
+
+    29% {
+        content: " Larry|"
+    }
+
+    30.5% {
+        content: " Larr|"
+    }
+
+    32% {
+        content: " Lar|"
+    }
+
+    33.5% {
+        content: "  La|"
+    }
+
+    35% {
+        content: " L|"
+    }
+
+    36.5% {
+        content: " |"
+    }
+
+    38% {
+        content: " D|"
+    }
+
+    39.5% {
+        content: "  De|"
+    }
+
+    41% {
+        content: " Dev|"
+    }
+
+    42.5% {
+        content: " Deve|"
+    }
+
+    44% {
+        content: " Devel|"
+    }
+
+    45.5% {
+        content: " Develo|"
+    }
+
+    47% {
+        content: " Develop|"
+    }
+
+    48.5% {
+        content: " Develope|"
+    }
+
+    50% {
+        content: " Developer|"
+    }
+
+    51.5% {
+        content: " Develope|"
+    }
+
+    53% {
+        content: " Develop|"
+    }
+
+    54.5% {
+        content: " Develo|"
+    }
+
+    56% {
+        content: " Devel|"
+    }
+
+    57.5% {
+        content: " Deve|"
+    }
+
+    59% {
+        content: " Dev|"
+    }
+
+    61.5% {
+        content: " De|"
+    }
+
+    63% {
+        content: " D|"
+    }
+
+    64.5% {
+        content: " |"
+    }
+
+    66% {
+        content: " D|"
+    }
+
+    67.5% {
+        content: "  De|"
+    }
+
+    69% {
+        content: " Des|"
+    }
+
+    70.5% {
+        content: " Desi|"
+    }
+
+    72% {
+        content: " Desig|"
+    }
+
+    73.5% {
+        content: " Design|"
+    }
+
+    75% {
+        content: " Designe|"
+    }
+
+    76.5% {
+        content: " Designer|"
+    }
+
+    78% {
+        content: " Designe|"
+    }
+
+    79.5% {
+        content: " Design|"
+    }
+
+    81% {
+        content: " Desig|"
+    }
+
+    83.5% {
+        content: " Desi|"
+    }
+
+    85% {
+        content: " Des|"
+    }
+
+    86.5% {
+        content: " De|"
+    }
+
+    88% {
+        content: " D|"
+    }
+
+    100% {
+        content: " |"
+    }
+
+}
+
+/* Home End */
+/*---------------------------------------------------------------------------------------------------------------------------------- */
+/* About Start  */
+.about-info>p {
+    color: #748182;
+}
+
+.about-p1 {
+    font-size: .9rem;
+
+}
+
+.outter-bar {
+    background-color: #E2E2E2;
+    height: 1.4rem;
+    width: 100%;
+
+}
+
+.inner-bar {
+    background-color: #1C1C1C;
+    height: 100%;
+
+}
+
+.inner-bar span:nth-child(1) {
+    font-size: .9rem;
+}
+
+.inner-bar span:nth-child(2) {
+    font-size: .7rem;
+}
+
+.inner-bar.one {
+    width: 95%;
+}
+
+.inner-bar.two {
+    width: 80%;
+}
+
+.inner-bar.three {
+    width: 90%;
+}
+
+button.btn-1 a,
+button.btn-2 a {
+    font-size: .9rem;
+}
+
+button.btn-2 a {
+    color: #343434;
+}
+
+button.btn-1,
+button.btn-2 {
+    font-size: .9rem;
+}
+
+button.btn-1 {
+    background-color: #1C1C1C;
+    color: white;
+    transition: 1s all;
+}
+
+button.btn-2 {
+    background-color: white;
+    transition: 1s all;
+
+}
+
+button.btn-1:hover {
+    background-color: white;
+    color: #1C1C1C;
+}
+
+button.btn-2:hover {
+    background-color: #1C1C1C;
+    color: white;
+}
+
+/* About End  */
+/*---------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Services Start */
+.services {
+    background-color: #F7F7F7;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+}
+
+.services p {
+    line-height: 1.7rem;
+}
+
+.services-icon {
+    width: 75px;
+    height: 75px;
+    background-color: #F7F7F7;
+    transition: 1s all;
+
+}
+
+.services-box {
+    box-shadow: 1px 1px 10px rgb(0, 0, 0, .1);
+}
+
+.services-box>h5 {
+    color: #343434;
+}
+
+.services-box>p {
+    color: #748182;
+}
+
+.services-box:hover .services-icon {
+    background-color: #1C1C1C;
+    color: white;
+}
+
+/* Services End */
+/*---------------------------------------------------------------------------------------------------------------------------------- */
+/* Portfolio Start */
+.portfolio h2 {
+    font-size: 2.5rem;
+}
+
+.portfolio-links ul li a {
+    color: #222222;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #1C1C1C;
+}
+
+.all-after::after {
+    content: '';
+    width: 45%;
+    height: 3px;
+    background-color: #1C1C1C;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.top-effect {
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 50%;
+    background-color: white;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: 1s all;
+}
+
+.bottom-effect {
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    top: 50%;
+    background-color: white;
+    transform: translateY(100%);
+    opacity: 0;
+    transition: 1s all;
+}
+
+.potfolio-item:hover .top-effect,
+.potfolio-item:hover .bottom-effect {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.icon-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #1C1C1C;
+    color: white;
+}
+
+/* Portfolio End */
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+/* Testimonials Start */
+.testimonials {
+    background-color: #F7F7F7;
+}
+
+.testimonials h2 {
+    font-size: 2.5rem;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    background-color: #869791;
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+
+.carousel-item>span {
+    color: #343434;
+}
+
+/* Testimonials End */
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+/* Acheivements Start  */
+
+.acheivements ul li h6 {
+    color: #748182;
+}
+
+/* Acheivements End  */
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+/* Blog Start */
+.blog {
+    background-color: #F7F7F7;
+}
+
+.blog h2 {
+    font-size: 2.5rem;
+}
+
+.blog-item {
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, .1);
+}
+
+.blog-item img {
+    transition: 1s all;
+}
+
+.blog-item img:hover {
+    transform: scale(1.2);
+}
+
+/* Blog End */
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+/* Contact Start */
+
+
+
+.contact-title {}
+
+.my-container {
+    width: 65%;
+    margin: auto;
+    font-size: .9rem;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+}
+
+.contact-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #F4F4F4;
+    transition: 1s all;
+
+}
+
+.contact-info ul:hover .contact-icon {
+    background-color: #1C1C1C;
+    color: white;
+}
+
+.contact-info ul li h6 {
+    color: #343434;
+}
+
+.contact-info ul li span {
+    color: #748182;
+}
+
+.contact-data input,
+.contact-data textarea {
+    background-color: #F4F4F4;
+    border-style: none
+}
+
+
+.contact-btn {
+    background-color: #1c1c1c;
+    color: white;
+    transition: 1s all;
+}
+
+.contact-btn:hover {
+    background-color: white;
+    color: #1c1c1c;
+}
+
+/* Contact End */
+
+/* footer Start */
+
+footer {
+    background-color: #1C1C1C;
+    color: #748182;
+    font-size: .8rem;
+}
+
+/* footer End */
+
+/*--------------------------------------------------------THE END---------------------------------------------------------------*/
